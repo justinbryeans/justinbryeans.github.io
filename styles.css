@@ -7,7 +7,7 @@
 }
 
 .nav li {
-  font-family: 'Helvetica', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: lighter;
   line-height: 40px;
@@ -27,9 +27,54 @@
     margin: auto;
 }
 
+.artist ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 10px;
+}
+
+.artist li {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+
+table, th, td {
+	margin: 0px 265px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 60%;
+	height: 50px;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 20px;
+}
+
+th, td {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+
+h2 {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+
 p {
 	font-family: Helvetica, sans-serif;
 	font-weight: lighter;
-	font-size: 22px;
+	font-size: 1.2em;
 	text-align: center;
 }
