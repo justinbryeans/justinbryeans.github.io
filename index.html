@@ -1,70 +1,407 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link type="text/css" rel="stylesheet" href="styles.css"> 
-	<title>The Inland Music Review</title>
-</head>
-<body>
-	<div class="nav">
-		<ul>
-			<li class="Home"><a href="index.html">Home</a></li>
-			<li class="Contact"><a href="contact.html">Contact</a></li>
-		</ul>
-	</div>
-	<br>
-	<div id="MMB">
-		<img src="http://static1.squarespace.com/static/51d5af77e4b001cbc648951b/51d6325ce4b03b00fe450bbc/5331baf9e4b0dd3c3e3ecd9b/1395768088408/Band-198.png?format=2500w" alt="marshallmcleanbandphoto" width="1024" height="683"/>
-	</div>
-	<br>
-	<p>Music expresses that which cannot be put into words and that which cannot remain silent.
-	- Victor Hugo</p>
-	<br>
-	<H2>Artist Spotlight</H2>
-		<div class="artist">
-			<ul>
-				<li><a href="https://marshallmclean.bandcamp.com">The Marshall McLean Band</a></li>
-				<li><a href="https://vonthebaptist.bandcamp.com/releases">Von The Baptist</a></li>
-				<li><a href="https://mamadoll.bandcamp.com/releases">Mama Doll</a></li>
-				<li><a href="http://windhotel.bandcamp.com/album/demo-disc">Wind Hotel</a></li>
-			</ul>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Justin Bryeans | Web Developer</title>
+
+		<!-- Open Sans Google font -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+		<!-- Raleway Google font -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700">
+		<!-- Favicons -->
+		<link rel="shortcut icon" href="img/favico/jb.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/favico/jb60x60.png">
+		<!-- Ionicon fonts css file -->
+		<link rel="stylesheet" href="css/ionicons.min.css">
+		<!-- magnific popup css file -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<!-- Animate.css file -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Owl carousel css file -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Bootstrap file -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Custom styles css file -->
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<!-- Start Loading page -->
+		<div class="loading">
+			<div class="loading-wrapper">
+				<div class="rec r1"></div>
+				<div class="rec r2"></div>
+				<div class="rec r3"></div>
+				<div class="rec r4"></div>
+				<div class="rec r5"></div>
+			</div>
 		</div>
-	<br>
-	<H2>Reviews</H2>
-		<div class="reviews">
-			<H3>Technological Taxidermy</H3>
-				<p>Tobias Hendrickson's futuristic soundscape of an industrialized night club in space.</p>
-				<br>
-			<H3>Jenny Anne Mannan</H3>
-				<p>A rich history of roots music, celebrated songwriter, multi-instrumentalist, pioneer of a new Spokane event at The Bartlett called Northwest of Nashville.</p>
-				<br>
+		<!-- End Loading page -->
+
+		<!-- Start Header Section -->
+		<div class="header" id="header">
+			<div id="large-header" class="large-header">
+				<canvas id="main-canvas"></canvas>
+				<div class="content center">
+					<div class="container">
+						<p>Hello, My Name Is</p>
+						<h1>Justin Bryeans</h1>
+						<p>Son. Husband. Father. Friend. Explorer. Creator. Web Developer.</p>
+						<a href="#about-me">Read more</a>
+					</div> <!-- End container -->
+				</div>
+				<div class="mouse" id="mouse"></div>  <!-- Mouse Icon -->
+			</div>
 		</div>
-	<H2>Upcoming Shows</H2>
-	<table>
-	<tr>
-		<th>Date</th>
-		<th>Artist</th>
-		<th>Venue</th>
-		<th>Cost</th>
-	</tr>
-	<tr>
-		<td>Tuesday April 26, 2016</td>
-		<td>Northwest Of Nashville Featuring The Holy Broke, Rye River & No Going Back</td>
-		<td>The Bartlett</td>
-		<td><a href="http://thebartlettspokane.com/event/northwest-of-nashville-3/#tickets">$7 Stading / $10 Seated</a></td>
-	</tr>
-	<tr>
-		<td>Thursday April 28, 2016</td>
-		<td>Folk Inception</td>
-		<td>John's Alley</td>
-		<td><a href="http://www.alleyvault.com">Contact Venue</a></td>
-	</tr>
-	<tr>
-		<td>Friday May 13, 2016</td>
-		<td>Damien Jurado + Ben Abraham</td>
-		<td>The Bartlett</td>
-		<td><a href="http://thebartlettspokane.com/event/damien-jurado-ben-abraham/">$15</a></td>
-	</tr>
-	</table>
-	<br>
-</body>
+		<!-- End Header Section -->
+
+		<!-- Start Side Menu -->
+		<nav id="top-nav">
+			<div class="menu" id="menu">
+				<span class="bar b1"></span>
+				<span class="bar b2"></span>
+				<span class="bar b3"></span>
+			</div>
+			<div class="side-menu" id="side-menu"> <!-- Menu items -->
+				<a href="#header">Home</a>
+				<a href="#about-me">About Me</a>
+				<a href="#skills">Skills</a>
+				<a href="#experiences">Experience</a>
+				<a href="#contact-me">Contact Me</a>
+			</div>
+		</nav>
+		<!-- End Side Menu -->
+
+		<!-- Start About Me Section -->
+		<div class="about-me clearfix" id="about-me">
+			<div class="container">
+				<div class="row">
+					<!-- Profile Pic -->
+					<div class="my-pic center col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<img src="img/jb.jpg" alt="my profile">
+					</div>
+					<div class="introduction col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<h2 class="h2">Justin Bryeans</h2>
+						<div class="heading-line"></div>
+						<p class="introduce">Son. Husband. Father. Friend. Explorer. Creator. Web Developer</p>
+						<p class="intro">I'm a full stack web developer with a background in non-profit leadership and team development focused on creating experiences that engage, enrich and facilitate flourishing for all.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="profile col-sm-4 col-xs-12 wow fadeInUp text-center" data-wow-duration="0.5s" data-wow-offset="200">
+						<h3>about me</h3>
+						<div class="heading-line"></div>
+						<div class="personal-wrapper">
+							<span><strong>myers-briggs type</strong><p>ENFP</p></span>
+							<span><strong>strengths finder top five</strong><p>Strategic, Ideation, Connectedness, Futuristic, Positivity</p></span>
+							<span><strong>enneagram type</strong><p>Enthusiast</p></span>
+						</div>
+					</div>
+					<div class="why-me col-sm-8 col-xs-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<!-- Start Accordion -->
+						<div class="accordion">
+							<div class="acc-item">
+								<div class="acc-title"><i class="ion-android-navigate"></i>A Brief Introduction</div>
+								<div class="acc-content">After growing up in Memphis, TN, a beautiful woman and the call westward were too much to resist. So after studying theology in Missouri and working among students in Montana I found myself at home in the great Pacific Northwest town of Spokane, WA. And that is where I continue to find myself at home, along with three growing boys, a spunky little girl and that same beautiful woman.</div>
+							</div>
+							<div class="acc-item">
+								<div class="acc-title"><i class="ion-android-navigate"></i>On Approaching Work</div>
+								<div class="acc-content">Those who know me are well aware of my fondness for the writing of author Wendell Berry. And as I think about work these words of his come to mind: "[All the ancient wisdom] tells us that work is necessary to us, as much a part of our condition as mortality; that good work is our salvation and our joy; that shoddy or dishonest or self-serving work is our curse and our doom." These words come to mind because they sum up a lot of how I think about work, and how I approach work. For work, good work, is indeed integral to who we are, and through it we have the opportunity to create a world that flourishes, that provides place and possibility for all people.</div>
+							</div>
+							<div class="acc-item">
+								<div class="acc-title"><i class="ion-android-navigate"></i>Things I'm Interested In</div>
+								<div class="acc-content">Exploring wild places. Travel. All things local (wherever I find myself). Learning to play the banjo. Reading. Film. Skiing. Creating experiences and applications for the common good.</div>
+							</div>
+						</div> <!-- End Accordion -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End About Me Section -->
+
+		<!-- Start Technical Skills Section -->
+		<div class="technical-skills center" id="skills">
+			<div class="pattern"></div>
+			<div class="container">
+				<!-- Title -->
+				<div class="title">
+					<h2 class="h2">development skills</h2>
+					<div class="heading-line"></div>
+				</div>
+				<!-- Start main skills -->
+				<div class="skills-wrapper row">
+					<!-- main skill No. 1 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="90">
+							<span><span id="chart_num_1">90</span>%</span>
+						</div>
+						<h2>oo design</h2>
+					</div>
+					<!-- main skill No. 2 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="90">
+							<span><span id="chart_num_2">90</span>%</span>
+						</div>
+						<h2>tdd</h2>
+					</div>
+					<!-- main skill No. 3 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="90">
+							<span><span id="chart_num_3">90</span>%</span>
+						</div>
+						<h2>html5</h2>
+					</div>
+					<!-- main skill No. 4 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="80">
+							<span><span id="chart_num_4">80</span>%</span>
+						</div>
+						<h2>css3</h2>
+					</div>
+					<!-- main skill No. 5 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="80">
+							<span><span id="chart_num_5">80</span> %</span>
+						</div>
+						<h2>ruby</h2>
+					</div>
+					<!-- main skill No. 6 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="75">
+							<span><span id="chart_num_6">75</span> %</span>
+						</div>
+						<h2>rails</h2>
+					</div>
+					<!-- main skill No. 7 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="75">
+							<span><span id="chart_num_7">75</span> %</span>
+						</div>
+						<h2>javascript</h2>
+					</div>
+					<!-- main skill No. 8 -->
+					<div class="skill col-md-3 col-sm-6">
+						<div class="chart center" data-percent="70">
+							<span><span id="chart_num_8">70</span> %</span>
+						</div>
+						<h2>react native</h2>
+					</div>
+				</div> <!-- End main skills -->
+				<div class="other-skills">
+					<h2 class="h2">additional skills</h2>
+					<div class="heading-line"></div>
+					<!-- Start other skills -->
+					<div class="skills-wrapper row">
+						<!-- Skill No. 1 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="95" data-tooltip="true" data-label="voracious learner" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 2 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="90" data-tooltip="true" data-label="communicator" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 3 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="90" data-tooltip="true" data-label="team developer" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 4 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="85" data-tooltip="true" data-label="servant leader" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 5 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="80" data-tooltip="true" data-label="visual designer" data-show-values="true" data-unit="%"></div>
+						</div>
+						<!-- Skill No. 6 -->
+						<div class='bar_group col-md-6 col-xs-12' data-max="100">
+							<div class=" bar_group__bar thick elastic" data-value="80" data-tooltip="true" data-label="experience designer" data-show-values="true" data-unit="%"></div>
+						</div>
+					</div>	<!-- End other skills -->
+				</div>
+			</div>
+		</div>
+		<!-- End Technical Skills Section -->
+
+		<!-- Start Experience Section -->
+		<div class="experiences center" id="experiences">
+			<div class="container">
+				<!-- Title -->
+				<div class="title wow fadeIn" data-wow-duration="0.5s" data-wow-offset="200">
+					<h2 class="h2">experience</h2>
+					<div class="heading-line"></div>
+				</div>
+				<!-- start timeline -->
+				<div class="timeline wow fadeIn" data-wow-duration="0.5s" data-wow-offset="200">
+					<!-- Event No. 1 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-android-phone-portrait"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>Simul</h3>
+							<span class="duration">( September 2016 )</span>
+							<span class="job-title">developer, team member & scrum master</span>
+							<p>A visibility and resource sharing mobile platform for refugees, allowing users to share everyday stories, request specific resources and be messaged. Simul aims to provide a safe space for people to share their experiences and connect with other refugees and the local and international communities. Simul's first person story platform hopes to raise awareness and understanding and to strengthen participation in relief efforts for the refugee crisis. Simul is built for both iOS and Android using React Native with a Ruby on Rails backend and a PostrgreSQL database. Simul implements internationalization and localization, meaning it can automatically detect a device's language and render the site in both Arabic and English accordingly.</p>
+						</div>
+					</div>
+					<!-- Event No. 2 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-university"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3>DevBootcamp</h3>
+							<span class="duration">( April 2016 - September 2016 )</span>
+							<span class="job-title">learner</span>
+							<p>Dev Bootcamp is an immersive web development learning pathway that transforms beginners into full-stack web developers. The technical program consists of learning Ruby, Javascript, SQL, Ruby on Rails, HTML, CSS, Sinatra, common Javascript libraries, and emphasizes big picture application and design practices such as object oriented programing, MVC architecture, test-driven development and Git workflow. Alongside of this, the entire experience is built upon a framework of emotional intelligence, pair programming and Dev Bootcamp's Engineering Empathy philosophy and practice.</p>
+						</div>
+					</div>
+					<!-- Event No. 3 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-map"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>Creole, Inc.</h3>
+							<span class="duration">( May 2014 - Present )</span>
+							<span class="job-title">board member</span>
+							<p>Piti Piti, an organization that I helped start (November 2011) that focused on land renewal and job creation in northern Haiti, merged with Creole Inc. in 2014.  Creole Inc. is a “from-the-ground-up” effort that builds upon the Haitian concept of “kombit” well-known to all Haitians. The strategy is ultimately dedicated to agricultural and economic development. In Haiti, “kombit” is a word that captures the national concept describing a community of organized labor. It has a wide range of application and is typified by small properties among the mountains and by local farmers on the plains.  Our vision is to establish a leading educational, agricultural, and business development organization in Northern Haiti.</p>
+						</div>
+					</div>
+					<!-- Event No. 4 -->
+					<div class="timeline-block clearfix wow fadeInRight" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-social-apple"></i>
+						</div>
+						<div class="content right round-corners">
+							<h3>Apple</h3>
+							<span class="duration">( May 2012 - July 2014 )</span>
+							<span class="job-title">creative</span>
+							<p>As a Creative my primary role was that of instructor as I guided small groups in learning and helped individuals complete projects using a variety of Apple’s offerings. This role involved the regular use and development of technical, presentation and listening skills, as well as the ability to adjust my teaching style to the needs of whomever I was working with.</p>
+						</div>
+					</div>
+					<!-- Event No. 5 -->
+					<div class="timeline-block clearfix wow fadeInLeft" data-wow-duration="0.5s" data-wow-offset="200">
+						<div class="icon">
+							<i class="ion-heart"></i>
+						</div>
+						<div class="content left round-corners">
+							<h3>Kaleo Church</h3>
+							<span class="duration">( July 2005 - Present )</span>
+							<span class="job-title">directional leader</span>
+							<p>Kaleo Church is a mission shaped community of Jesus followers located in Spokane, WA. Specifically, I serve as cultural architect and collaborator on the teaching team.</p>
+						</div>
+					</div>
+				</div> <!-- End Timeline -->
+			</div>
+		</div>
+		<!-- End Experience Section -->
+
+		<!-- Start Contact Section -->
+		<div class="contact center" id="contact-me">
+			<div class="container">
+				<!-- Title -->
+				<div class="title wow fadeInUp" 				data-wow-duration="0.5s" data-wow-offset="200">
+					<h2 class="h2">hire me</h2>
+					<div class="heading-line"></div>
+				</div>
+				<div class="row form-wrapper">
+					<div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="0.5s" data-wow-offset="200">
+						<!-- Contact-Me Form -->
+						<form action="contact.php" method="post" id="form">
+							<div class="form-group">
+								<input type="text" name="name" id="name" class="form-control" data-validation-required-message="Please, Enter Your Name." required>
+								<label for="name">Your Name</label>
+								<span class="help-block text-danger"></span>
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" id="email" class="form-control" data-validation-email-message="Your E-mail isn't correct" required>
+								<label for="email">Your E-mail</label>
+								<span class="help-block text-danger"></span>
+							</div>
+							<div class="form-group">
+								<textarea name="message" id="message" class="form-control" data-validation-required-message="Please, Type Your Message" required></textarea>
+								<label for="message">Your Message</label>
+								<span class="help-block text-danger"></span>
+							</div>
+							<div class="submit-container">
+								<button type="submit" class="submit-btn">Send Your Message</button>
+							</div>
+						</form> <!-- End Form -->
+					</div>
+				</div>
+		</div>
+		<!-- End Contact Section -->
+		<!-- Start Footer Section -->
+		<div class="footer center">
+			<div class="container">
+				<div class="row">
+					<!-- <div class="follow-me">follow me</div> -->
+					<div class="col-md-12 col-xs-12 links">
+						<!-- Social links -->
+						<div class="icon-wrapper center">
+							<a href="https://www.linkedin.com/in/justinbryeans" class="icon li ion-social-linkedin"></a>
+							<a href="https://github.com/justinbryeans" class="icon gh ion-social-github"></a>
+							<a href="https://www.facebook.com/justinbryeans" class="icon fb ion-social-facebook"></a>
+							<a href="https://twitter.com/justinbryeans" class="icon tw ion-social-twitter"></a>
+							<!-- <a href="#" class="icon gp ion-social-googleplus"></a> -->
+							<!-- <a href="#" class="icon pin ion-social-pinterest"></a> -->
+						</div>
+					</div>
+					<div class="col-md12 col-xs-12 copyright">
+						<h6>&copy; Justin Bryeans 2016 All RightsReserved.</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- End Footer Section -->
+
+		<!-- Start To Top button -->
+		<div class="back-to-top center">
+			<i class="ion-android-navigate"></i>
+		</div>
+		<!-- End To Top button -->
+
+		<!-- Start scroll percentage -->
+		<div id="scroll"></div>
+		<!-- End scroll percentage -->
+
+
+
+		<!-- Including jQuery file -->
+		<script src="js/jquery-1.12.1.min.js"></script>
+		<!-- Including jQuery.appear file -->
+		<script src="js/jquery.appear.js"></script>
+		<!-- Bootstrap js file -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- easy pie chart -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<!-- NiceScroll plugin -->
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<!-- animate numbers plugin -->
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<!-- Horizontal bar chart -->
+		<script src="js/bars.js"></script>
+		<!-- mixitup plugin -->
+		<script src="js/jquery.mixitup.min.js"></script>
+		<!-- animated background header -->
+		<script src="js/TweenLite.min.js"></script>
+		<!-- magnific popup js file -->
+		<script src="js/magnific-popup.js"></script>
+		<!-- form validation file -->
+		<script src="js/jqBootstrapValidation.js"></script>
+		<!-- Owl carousel js file -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Custom file  -->
+		<script src="js/plugins.js"></script>
+		<!-- Wow.js file -->
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+	</body>
 </html>
