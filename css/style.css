@@ -509,7 +509,11 @@ a.selected-item:before {
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
 	background-size: cover;
+	background-position: center;
 	position: relative;
 }
 .technical-skills h2 {
