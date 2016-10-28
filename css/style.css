@@ -435,7 +435,7 @@ a.selected-item:before {
 			Start Fun Facts Section
 ----------------------------------------- */
 
-.fun-facts {
+/*.fun-facts {
 	background: #333 url ('../img/nightskytrees.jpg') no-repeat 50% 80% fixed;
 	background-size: cover;
 	position: relative;
@@ -505,10 +505,10 @@ a.selected-item:before {
 
 .technical-skills {
 	background: #333 url('../img/nightskytrees.jpg') no-repeat 50% 80% fixed;
-	-webkit-background-size: 100%;
+	/*-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
+    background-size: 100%;*/
 	-webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -756,7 +756,7 @@ a.selected-item:before {
 			Start  Quote Section
 ----------------------------------------- */
 
-.quote {
+/*.quote {
 	padding: 80px 0;
 	background: #333 url('../img/nightskytrees.jpg') no-repeat fixed center;
 	-webkit-background-size: cover;
@@ -787,7 +787,7 @@ a.selected-item:before {
     margin-top: 30px;
     font-weight: bold;
     text-transform: uppercase;
-}
+}*/
 
 /* End  Quote Section */
 
@@ -795,7 +795,7 @@ a.selected-item:before {
 /* ---------------------------------------
 			Start  Portfolio Section
 ----------------------------------------- */
-.portfolio .controls { margin-top: 60px;}
+/*.portfolio .controls { margin-top: 60px;}
 .portfolio .controls button {
 	position: relative;
 	background-color: transparent;
@@ -928,7 +928,7 @@ a.selected-item:before {
 .mfp-close:hover {
 	color: #fff;
 	background: #222;
-}
+}*/
 /* End  Portfolio section */
 
 
@@ -936,7 +936,7 @@ a.selected-item:before {
 			Start  Testmonials Section
 ----------------------------------------- */
 
-.testmonials {
+/*.testmonials {
 	background: #333 url('../img/nightskytrees.jpg') center center no-repeat fixed;
 	background-size: cover;
 	color: #fff;
@@ -985,7 +985,7 @@ a.selected-item:before {
 	letter-spacing: 2px;
 	font-style: italic;
 	color: #eee;
-}
+}*/
 
 /* End  Testmonials section */
 
