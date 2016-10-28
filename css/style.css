@@ -116,8 +116,12 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 	position: relative;
 	width: 100%;
 	background-repeat: no-repeat;
-	background: #333 url('../img/nightskytrees.jpg') center center no-repeat fixed;
+	background: #333 url('../img/nightskytrees.jpg') center center no-repeat scroll;
 	overflow: hidden;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
