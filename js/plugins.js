@@ -160,6 +160,30 @@ $(document).ready(function() {
         $("#chart_num_4").animateNumber({
             number: 80
         }, 1500);
+        $("#chart_num_5").animateNumber({
+            number: 80
+        }, 1500);
+        $("#chart_num_6").animateNumber({
+            number: 80
+        }, 1500);
+        $("#chart_num_7").animateNumber({
+            number: 80
+        }, 1500);
+        $("#chart_num_8").animateNumber({
+            number: 75
+        }, 1500);
+        $("#chart_num_9").animateNumber({
+            number: 75
+        }, 1500);
+        $("#chart_num_10").animateNumber({
+            number: 75
+        }, 1500);
+        $("#chart_num_11").animateNumber({
+            number: 75
+        }, 1500);
+        $("#chart_num_12").animateNumber({
+            number: 65
+        }, 1500);
     }, {
         accX: 0,
         accY: -150
