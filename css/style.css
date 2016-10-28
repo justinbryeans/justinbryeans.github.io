@@ -87,6 +87,14 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 	right: 0;
 	left: 0;
 	width: 100%;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	z-index: 0;
 }
 .heading-line {
@@ -116,7 +124,7 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 	position: relative;
 	width: 100%;
 	background-repeat: no-repeat;
-	background: #333 url('../img/nightskytrees.jpg') center center no-repeat scroll;
+	background: #333 url('../img/nightskytrees.jpg') center center no-repeat fixed;
 	overflow: hidden;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -126,7 +134,6 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	background-position: center;
 	z-index: 1;
 }
 .header .content {
@@ -505,32 +512,16 @@ a.selected-item:before {
 
 .technical-skills {
 	background: #333 url('../img/nightskytrees.jpg') no-repeat 50% 80% fixed;
-	/*-webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;*/
-	/*-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
 	background-size: cover;
-	background-position: center;
-	position: relative;*/
 	position: relative;
-	width: 100%;
-	background-repeat: no-repeat;
-	background: #333 url('../img/nightskytrees.jpg') center center no-repeat scroll;
-	overflow: hidden;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	background-position: center;
-	z-index: 1;
-}
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
 }
 .technical-skills h2 {
 	color: #eaeaea;
