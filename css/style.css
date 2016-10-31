@@ -124,7 +124,7 @@ button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, tex
 	position: relative;
 	width: 100%;
 	background-repeat: no-repeat;
-	background: #333 url('../img/mountainsnight.jpg') center center no-repeat fixed;
+	background: #333 url('../img/mountainsnight.jpg') center center no-repeat scroll;
 	overflow: hidden;
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -511,7 +511,7 @@ a.selected-item:before {
 ----------------------------------------- */
 
 .technical-skills {
-	background: #333 url('../img/mountainsnight.jpg') center center no-repeat fixed;
+	background: #333 url('../img/mountainsnight.jpg') center center no-repeat scroll;
 	background-size: cover;
 	position: relative;
 	-webkit-background-size: 100%;
